@@ -25,9 +25,14 @@ Note that to this chatbot is just extracting data from a pdf file, so we need to
 1. Load the PDF file and extract the data from it.
 2. Extract text chunks from the pdf file, this is because llama 2 has a token limit.
 3. Load the embedding model and perform embedding on the text chunks.
-4. Pass these embeddings to a vector database.
+4. Pass these embeddings to a vector database. It should look something like this:
+   
+<p align="center">
+<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/pinecone.png" width="800">
+</p>
+  
 You are likely to encounter an error here, although I have resolved it using PineconeVectorStore, I recommend restarting your kernel. Incase, it is deprecated you may read the following documentation for help [Pinecone](https://python.langchain.com/v0.2/docs/integrations/vectorstores/pinecone/).
-6. Pass the vector data to the LLM.
+5. Pass the vector data to the LLM.
 
 ## Results Before UI
 

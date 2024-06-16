@@ -54,8 +54,16 @@ We deploy our frontend using Flask. For this we followed a basic syntax:
 
 ## Results
 
+Firstly, we test out the model by asking a relevant clinical medicine question: 
+
 <p align="center">
 <image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/medical_chatbot.png" width="500">
+</p>
+
+Now, we ask it a random/irrelevant question:
+
+<p align="center">
+<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/random_command.png" width="500">
 </p>
 
 

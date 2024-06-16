@@ -66,6 +66,8 @@ Firstly, we test out the model by asking a relevant clinical medicine question:
 <image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/medical_chatbot.png" width="500">
 </p>
 
+Some sentences make sense but some seem to be just fragments of a sentence. This could be caused by either the embedding process or by extraction. To resolve this, we'll need to make some additions to our code. 
+
 Now, we ask it a random/irrelevant question:
 
 <p align="center">

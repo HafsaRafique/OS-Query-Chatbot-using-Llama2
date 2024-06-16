@@ -3,7 +3,7 @@ This repository contains code to set up a medical chatbot using the LLaMA 2 mode
 
 ## Requirements
 To run this project, you'll need to install the necessary libraries in requirements.txt or you may need to install more as you go. Make sure to install the correct versions as specified to avoid any compatibility issues. Some features might be deprecated, for that refer to the following documentations:
-[Langchain](https://python.langchain.com/v0.2/docs/integrations/platforms/huggingface/)
+[Langchain](https://python.langchain.com/v0.2/docs/integrations/platforms/huggingface/), 
 [Pinecone](https://python.langchain.com/v0.2/docs/integrations/vectorstores/pinecone/)
 
 ## Environment Setup
@@ -43,7 +43,7 @@ We deploy our frontend using Flask. For this we followed a basic syntax:
 ## Results
 
 <p align="center">
-<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/medical_chatbot.png">
+<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/medical_chatbot.png" width="500">
 </p>
 
 

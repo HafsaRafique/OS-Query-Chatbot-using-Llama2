@@ -82,3 +82,8 @@ Can't instantiate abstract class BaseRetriever with abstract methods _get_releva
 You'll need to upgrade your langchain version to 0.1.9. You will get a lot of deprecation warnings and incompatibility warnings, ignore them for now. Your application should run smoothly.
 
 2. Access you page by typing either http://127.0.0.1:8080 or http://10.2.0.2:8080.
+
+3. The model takes about 7-8 mins to respond, so you'll need some patience.
+
+4. For guidance refer to this link [Chatbot](https://www.youtube.com/watch?v=Fe5B90R8DTg&t=2021s)   
+5. 

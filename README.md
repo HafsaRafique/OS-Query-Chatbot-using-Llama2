@@ -28,7 +28,7 @@ You are likely to encounter an error here, although I have resolved it using Pin
 ## Results Before UI
 
 <p align="center">
-<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/before.png" width="500">
+<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/before.png" width="800">
 </p>
 
 Here, the output is showing source documents as well, you can turn this setting to False.

@@ -6,6 +6,10 @@ To run this project, you'll need to install the necessary libraries in requireme
 [Langchain](https://python.langchain.com/v0.2/docs/integrations/platforms/huggingface/), 
 [Pinecone](https://python.langchain.com/v0.2/docs/integrations/vectorstores/pinecone/)
 
+Download the LLM from this link:
+[Llama2](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q4_0.bin)
+
+
 ## Environment Setup
 You'll need to go to Anaconda command prompt, create an environment using:
 

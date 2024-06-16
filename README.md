@@ -86,4 +86,4 @@ You'll need to upgrade your langchain version to 0.1.9. You will get a lot of de
 3. The model takes about 7-8 mins to respond, so you'll need some patience.
 
 4. For guidance refer to this link [Chatbot](https://www.youtube.com/watch?v=Fe5B90R8DTg&t=2021s)   
-5. 
+

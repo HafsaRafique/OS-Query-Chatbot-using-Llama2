@@ -29,16 +29,21 @@ You are likely to encounter an error here, although I have resolved it using Pin
 We deploy our frontend using Flask. For this we followed a basic syntax:
 
 >app =Flask(__name__)
+
 >@app.route("/")
+
 >def index():
+>
 >    return render_template('chat.html')
+>
 > if __name__ == '__main__':
-    app.run(host="0.0.0.0", port= 8080, debug= True)
+>
+>   app.run(host="0.0.0.0", port= 8080, debug= True)
 
 ## Results
 
 <p align="center">
-<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/medical_chatbot.png">
+<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/images/medical_chatbot.png">
 </p>
 
 

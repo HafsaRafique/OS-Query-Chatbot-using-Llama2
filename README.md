@@ -43,7 +43,7 @@ We deploy our frontend using Flask. For this we followed a basic syntax:
 ## Results
 
 <p align="center">
-<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/images/medical_chatbot.png">
+<image src="[https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/images/medical_chatbot.png](https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/medical_chatbot.png)">
 </p>
 
 

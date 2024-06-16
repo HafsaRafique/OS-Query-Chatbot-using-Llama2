@@ -25,4 +25,20 @@ Note that to this chatbot is just extracting data from a pdf file, so we need to
 You are likely to encounter an error here, although I have resolved it using PineconeVectorStore, I recommend restarting your kernel. Incase, it is deprecated you may read the following documentation for help [Pinecone](https://python.langchain.com/v0.2/docs/integrations/vectorstores/pinecone/).
 6. Pass the vector data to the LLM.
 
+## User Interface
+We deploy our frontend using Flask. For this we followed a basic syntax:
+
+>app =Flask(__name__)
+>@app.route("/")
+>def index():
+>    return render_template('chat.html')
+> if __name__ == '__main__':
+    app.run(host="0.0.0.0", port= 8080, debug= True)
+
+## Results
+
+<p align="center">
+<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/medical_chatbot.png">
+</p>
+
 

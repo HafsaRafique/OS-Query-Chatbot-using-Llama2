@@ -72,11 +72,13 @@ Now, we ask it a random/irrelevant question:
 <image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/random_command.png" width="500">
 </p>
 
-### Note
-Incase you get the following error: 
+## Note
+1. Incase you get the following error: 
 
 pydantic.error_wrappers.ValidationError: 1 validation error for RetrievalQA
 retriever
 Can't instantiate abstract class BaseRetriever with abstract methods _get_relevant_documents (type=type_error)
 
 You'll need to upgrade your langchain version to 0.1.9. You will get a lot of deprecation warnings and incompatibility warnings, ignore them for now. Your application should run smoothly.
+
+2. Access you page by typing either http://127.0.0.1:8080 or http://10.2.0.2:8080.

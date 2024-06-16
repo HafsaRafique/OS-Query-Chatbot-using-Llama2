@@ -32,6 +32,7 @@ Note that to this chatbot is just extracting data from a pdf file, so we need to
 </p>
   
 You are likely to encounter an error here, although I have resolved it using PineconeVectorStore, I recommend restarting your kernel. Incase, it is deprecated you may read the following documentation for help [Pinecone](https://python.langchain.com/v0.2/docs/integrations/vectorstores/pinecone/).
+
 5. Pass the vector data to the LLM.
 
 ## Results Before UI
@@ -71,4 +72,11 @@ Now, we ask it a random/irrelevant question:
 <image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/random_command.png" width="500">
 </p>
 
+### Note
+Incase you get the following error: 
 
+pydantic.error_wrappers.ValidationError: 1 validation error for RetrievalQA
+retriever
+Can't instantiate abstract class BaseRetriever with abstract methods _get_relevant_documents (type=type_error)
+
+You'll need to upgrade your langchain version to 0.1.9. You will get a lot of deprecation warnings and incompatibility warnings, ignore them for now. Your application should run smoothly.

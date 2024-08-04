@@ -1,4 +1,4 @@
-# Query-Chatbot-using-Llama2
+# RAG-Chatbot-using-Llama2
 This repository contains code to set up a query chatbot using the Llama 2 model. The chatbot extracts data from a PDF file, processes it, and responds to inquiries based on the extracted data. The implementation uses LangChain and HuggingFace libraries, along with a vector database (Pinecone) to handle the embeddings.
 
 ## Requirements

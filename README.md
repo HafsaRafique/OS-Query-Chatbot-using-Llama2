@@ -1,5 +1,5 @@
-# Medical-Chatbot-using-Llama2
-This repository contains code to set up a medical chatbot using the LLaMA 2 model. The chatbot extracts data from a PDF file, processes it, and responds to medical inquiries based on the extracted data. The implementation uses LangChain and HuggingFace libraries, along with a vector database (Pinecone) to handle the embeddings.
+# Query-Chatbot-using-Llama2
+This repository contains code to set up a query chatbot using the Llama 2 model. The chatbot extracts data from a PDF file, processes it, and responds to inquiries based on the extracted data. The implementation uses LangChain and HuggingFace libraries, along with a vector database (Pinecone) to handle the embeddings.
 
 ## Requirements
 To run this project, you'll need to install the necessary libraries in requirements.txt or you may need to install more as you go. Make sure to install the correct versions as specified to avoid any compatibility issues. Some features might be deprecated, for that refer to the following documentations:
@@ -13,9 +13,9 @@ Download the LLM from this link:
 ## Environment Setup
 You'll need to go to Anaconda command prompt, create an environment using:
 
-> conda create -r medicalchatbot
+> conda create -r chatbot
 
-> conda activate medicalchatbot
+> conda activate chatbot
 
 > code .
 
@@ -28,20 +28,13 @@ Note that to this chatbot is just extracting data from a pdf file, so we need to
 4. Pass these embeddings to a vector database. It should look something like this:
    
 <p align="center">
-<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/pinecone.png" width="800">
+<image src="https://github.com/HafsaRafique/OS-Query-Chatbot-using-Llama2/blob/main/images/pinecone.png" width="800">
 </p>
   
 You are likely to encounter an error here, although I have resolved it using PineconeVectorStore, I recommend restarting your kernel. Incase, it is deprecated you may read the following documentation for help [Pinecone](https://python.langchain.com/v0.2/docs/integrations/vectorstores/pinecone/).
 
 5. Pass the vector data to the LLM.
 
-## Results Before UI
-
-<p align="center">
-<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/before.png" width="800">
-</p>
-
-Here, the output is showing source documents as well, you can turn this setting to False.
 
 ## User Interface
 We deploy our frontend using Flask. For this we followed a basic syntax:
@@ -60,19 +53,14 @@ We deploy our frontend using Flask. For this we followed a basic syntax:
 
 ## Results
 
-Firstly, we test out the model by asking a relevant clinical medicine question: 
+Firstly, we test out the model by asking a relevant question: 
 
 <p align="center">
-<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/medical_chatbot.png" width="500">
+<image src="https://github.com/HafsaRafique/OS-Query-Chatbot-using-Llama2/blob/main/images/query_chatbot.png" width="500">
 </p>
 
-Some sentences make sense but some seem to be just fragments of a sentence. This could be caused by either the embedding process or by extraction. To resolve this, we'll need to make some additions to our code. 
+We can see the resulting output has been fetched by the model from the vector store. 
 
-Now, we ask it a random/irrelevant question:
-
-<p align="center">
-<image src="https://github.com/HafsaRafique/Medical-Chatbot-using-Llama2/blob/main/images/random_command.png" width="500">
-</p>
 
 ## Note
 1. Incase you get the following error: 
@@ -85,7 +73,7 @@ You'll need to upgrade your langchain version to 0.1.9. You will get a lot of de
 
 2. Access you page by typing either http://127.0.0.1:8080 or http://10.2.0.2:8080.
 
-3. The model takes about 7-8 mins to respond, so you'll need some patience.
+3. The model takes about 17-18 mins to respond, so you'll need some patience if you don't have a GPU.
 
 4. For guidance refer to this link [Chatbot](https://www.youtube.com/watch?v=Fe5B90R8DTg&t=2021s)   
 

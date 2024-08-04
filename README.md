@@ -51,9 +51,11 @@ We deploy our frontend using Flask. For this we followed a basic syntax:
 >
 >   app.run(host="0.0.0.0", port= 8080, debug= True)
 
+The front-end was obtained online but a few changes were made inspired by GPTs dark mode.
+
 ## Results
 
-Firstly, we test out the model by asking a relevant question: 
+We test out the model by asking a relevant question: 
 
 <p align="center">
 <image src="https://github.com/HafsaRafique/OS-Query-Chatbot-using-Llama2/blob/main/images/llm.png" width="500">
